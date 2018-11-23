@@ -1,6 +1,3 @@
-# voight-kampff
-~A very advanced form of lie detector that measures contractions of the iris muscle and the presence of invisible airborne particles emitted from the body. The bellows were designed for the latter function and give the machine the menacing air of a sinister intent. The VK is used primarily by Blade Runners to determine if a suspect is truly human by measuring the degree of his empathic response through carefully worded questions and statements.~
-
 A technical test for Android development.
 
 ## Introduction:
@@ -42,7 +39,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
  3. Unit tests. How do you know that the code is doing what it's supposed to do? At minimum, I would expect you to test that you can get and set the patient fields correctly.
  4. Does it look good? It doesn't have to be a piece of art, but it would be good if the application followed the [google material design guidelines](https://material.io/guidelines/) to some degree. Medical apps don't work if people think they're ugly, unintuitive, and don't use them.
  5. What libraries are you using? We don't expect you to home roll your own REST framework, or JSON deserializer. How familiar are you with the most commonly used Android development tools available?
- 6. You can do this in Java or Kotlin, whichever you prefer.
+ 6. We are primarily a Java shop, so please stick to Java in Android Studio.
  
 Typically, we give one week for this assignment to be done. If you feel like this is too short, or have special accommodations you want us to be aware of, please do not hesitate to let us know. 
  
