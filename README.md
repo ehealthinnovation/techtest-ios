@@ -41,7 +41,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
  5. What libraries are you using? We don't expect you to home roll your own REST framework, or JSON deserializer. How familiar are you with the most commonly used Android development tools available?
  6. We are primarily a Java shop, so please stick to Java in Android Studio.
  
-Typically, we give one week for this assignment to be done. If you feel like this is too short, or have special accommodations you want us to be aware of, please do not hesitate to let us know. 
+Typically, we give one hour for this assignment to be done. If you feel like this is too short, or have special accommodations you want us to be aware of, please do not hesitate to let us know. 
  
 Just keep in mind, that like most programming problems, there is rarely a single right or wrong answer. Do the work to the best of your abilities. If there is a section or part you are uncertain of, make an assumption and be sure to document it in the solution you provide. We're not here to try and trick you. If you cannot complete everything, submit what you have, and we can talk about the solution you've provided.
 
