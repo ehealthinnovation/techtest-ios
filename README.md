@@ -6,7 +6,7 @@ First off, thanks for taking the time to apply to our organization. We really ap
 
 ## Your Toolbox:
 
-There are two pieces of knowledge you will need to effectively complete the assignment.
+There are a few pieces of knowledge you will need to effectively complete the assignment.
 
 ### 1. [A Brief Introduction to FHIR](fhir.md)
 
@@ -18,19 +18,9 @@ There are two pieces of knowledge you will need to effectively complete the assi
 
 1. Downloads the 10 most recently updated patients from the test server.
   * Just as a note, patient objects are complicated...ignore all the fields you do not need when you pull the data from the server. Don't create a tonne of POJOs to cover every field when you download the patient object.
-2. Displays a list of these patients to the user, with Name. 
-3. Allows the user to do the following to a patient object:
-  * View the family name, gender, and birthday of each patient if they want.
-  * Update the family name, gender, or birthday of each patient, and update the patient on the FHIR test server with the new information. 
-4. Refresh the list and fetch the new latest 10 patients. 
-5. Change the order of patients displayed, based on birthday, or name (alphabetical).
-6. Upload the project to a public GitHub repository so we can clone and look at what you've done.
-
-##### Bonus points for:
-
-1. Being able to adjust the number of patients that are downloaded at one time.
-2. Storing the patient data locally. (In whatever persistence tool you want)
-3. Implementing other CRUD operations with the test server.
+2. Displays a list of these patients to the user, by name. 
+3. Allows the user to view the family name, gender, and birthday of a specific patient if they want.
+4. Upload the project to a public GitHub repository so we can clone and look at what you've done.
 
 ## What are we looking for?
 
@@ -40,8 +30,6 @@ There are two pieces of knowledge you will need to effectively complete the assi
  4. Does it look good? It doesn't have to be a piece of art, but it would be good if the application followed the [google material design guidelines](https://material.io/guidelines/) to some degree. Medical apps don't work if people think they're ugly, unintuitive, and don't use them.
  5. What libraries are you using? We don't expect you to home roll your own REST framework, or JSON deserializer. How familiar are you with the most commonly used Android development tools available?
  6. We are primarily a Java shop, so please stick to Java in Android Studio.
- 
-Typically, we give one hour for this assignment to be done. If you feel like this is too short, or have special accommodations you want us to be aware of, please do not hesitate to let us know. 
  
 Just keep in mind, that like most programming problems, there is rarely a single right or wrong answer. Do the work to the best of your abilities. If there is a section or part you are uncertain of, make an assumption and be sure to document it in the solution you provide. We're not here to try and trick you. If you cannot complete everything, submit what you have, and we can talk about the solution you've provided.
 
