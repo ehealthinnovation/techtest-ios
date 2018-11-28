@@ -17,7 +17,7 @@ There are a few pieces of knowledge you will need to effectively complete the as
 #### Your job is to create a basic iOS health application that does the following core tasks:
 
 1. Downloads the 10 most recently updated patients from the test server.
-  * Just as a note, patient objects are complicated...ignore all the fields you do not need when you pull the data from the server. Don't create a tonne of POJOs to cover every field when you download the patient object.
+  * Just as a note, patient objects are complicated...ignore all the fields you do not need when you pull the data from the server. You don't need cover every field when you download the patient object.
 2. Displays a list of these patients to the user, by name. 
 3. Allows the user to view the family name, gender, and birthday of a specific patient if they want.
 4. Upload the project to a public GitHub repository so we can clone and look at what you've done.
