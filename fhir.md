@@ -6,12 +6,9 @@ What does that mean to you right now? Probably not too much (unless it does, in 
 
 ## Nuts and Bolts
 
-To import the necesary library components for fhir, use the following import in your build.gradle file:
+To import the necesary library components for fhir, you can use the fhir data modelling framework `Swift-Fhir`. It includes functionality to pull fhir resources from a fhir server and have them modelled in your app. 
 
-```groovy
-    implementation 'ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:3.1.0'
-```
-The dependency comes from Maven Central, which should automatically in the new project your create. If you are having issues, the entry in the Maven repository browser is [here](https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu3/3.0.0). This will contain the necessary objects for this demo application.
+You can find the repo for it at [Swift-Fhir](https://github.com/smart-on-fhir/Swift-FHIR) along with installation instructions and sample code at [Swift-Fhir Wiki](https://github.com/smart-on-fhir/Swift-SMART/wiki).
 
 ## Patient
 
